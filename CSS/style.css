@@ -1,0 +1,115 @@
+*{  margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    top: 0px;
+    width: 100%;
+    padding: 0;
+}
+.contenedortop{ background-color: black;
+    color: aliceblue;
+    
+}
+.p1{
+    position: relative;
+    left: 20px;
+    top: 5px;
+    padding: 0px;
+}
+.p2{position: relative;
+    color: white;
+    text-align: end;
+    top: -10px;
+    text-decoration: none;
+    
+    }
+.headerprincipal{
+        position: sticky;
+        background-color: #F0A83E   ;
+        padding: 25px;
+        color: white;
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        top: auto;
+        z-index: 10;
+        align-items: center;
+        
+}
+
+/* brackground */
+.menuimagen{
+    margin: 0px;
+    
+}
+
+.img-back{
+    width: 100%;
+    height: 600px;
+    background: url(img/bowl-pet-daities-green-background.jpg);
+    position: relative;
+
+}
+   
+.img-text{
+    position: absolute;
+    display: flex;
+    top: 200px;
+    left: 900px;
+    margin-top: 0;
+    
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 35px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.btncomederos{
+background-color: #F0A83E ;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+color: #FFFFFF;
+text-decoration: none;
+}
+.menuproductos{
+    position: relative;
+    text-align: center;
+    font-size:200%;
+    
+}
+.patagrande{
+    width: 10%;
+}
+h2{color: #3C2313;
+    text-align: center;
+    font-size: 45px;
+    margin: 20px 0 30px;}
+
+.etiquetaproductos{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+.containt-productos{
+    
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+    margin-block:  40px;
+}
