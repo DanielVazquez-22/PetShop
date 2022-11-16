@@ -206,9 +206,6 @@ color: #FFFFFF;
 }
 @media (min-width: 481px)
 {
-    .headerprincipal{
-        
-    }
     .toggle-menu{
         display: none;
     }
@@ -221,9 +218,25 @@ color: #FFFFFF;
 .headerprincipal{
     justify-content: space-between;
 }
-
 .navpatitas {
     display: none;
 }
-
+.img-text{
+    left: 0px;
+}
+.containt-productos{
+    flex-direction: column;
+}
+.contesuscribite{
+    flex-direction: column;
+    padding-left: 35px;
+}
+.footerprincipal{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+}
+.infopag{
+    width: 80%;
+}
 }
