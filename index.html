@@ -16,8 +16,14 @@
                     Grandes ofertas en comederos
                 </p>
                 <p class="p2">
-                    <a href="#">Español</a>
-                    <a href="#">$ ARG</a>
+                    <select name="idioma" id="idioma">
+                        <option value="idioma">Español</option>
+                        <option value="idioma">English</option>
+                    </select>
+                    <select name="moneda" id="moneda">
+                        <option value="moneda">$ ARG</option>
+                        <option value="moneda">U$D DOL</option>
+                    </select>
                 </p>
             </nav>
         </div> 
@@ -58,9 +64,9 @@
     <div><h2>Productos Destacados </h2></div>
 
     <div class="etiquetaproductos">
-    <a href="">Comederos</a>
-    <a href="">Accesorios</a>
-    <a href="">Comida</a>
+    <a href="#">Comederos</a>-
+    <a href="#">Accesorios</a>-
+    <a href="#">Comida</a>
     </div>
 </section>
 
@@ -86,16 +92,66 @@
     
 </section>
 
-<section>
-    <h2>Contactanos</h2>
-    imput
-</section>
 </menu>
 
+<section >
+    <h2>Contactanos</h2>
+    <form class="formulario" >
+        <input type="text" name="nombre" id="nom" placeholder="Nombres y Apellido">
+        
+        <input type="email" name="correo" id="correo" placeholder="Ingresar tu correo">
+        
+        <input type="tel" name="telefono" id="telefono" placeholder="Telefono">
+        <br>
+        <div>
+            <button class="reset" type="reset">Resetear</button>
+            <button class="submit" type="submit">Enviar</button>
+        </div>
+        <br>
+    </form>
+</section>
+
 <footer>
-    <section>
-        Todos los derechos reservados Front End
+    <section class="contesuscribite">
+        <div class="logocorreo">
+            <img src="img/enviar-correo.png" alt="">
+            <p>Suscríbite para más novedades</p>
+        </div>
+        <div >
+            <form >
+                <input class="correosuscribite" type="email" name="correo" id="correo" placeholder="Ingresa aqui tu correo">
+                <button class="buttonsuscribite" type="submit">Suscríbite</button>
+            </form>
+        </div>
+    </section> 
+
+    <section class="footerprincipal">
+        <div class="infopag">
+            <div >
+                <img src="/TrabajoIntegradorPetShop/img/localidad.png" alt="Localidad">
+                <h3>Localidad</h3>
+                <p class="infopag1">Calle - Provincia</p>
+            </div>
+            <div >
+            <img src="/TrabajoIntegradorPetShop/img/telefono.png" alt="Telefono">
+            <h3>Teléfono</h3>
+            <p class="infopag1">Numero de Telefóno</p>
+            </div>
+            <div >
+                <img src="/TrabajoIntegradorPetShop/img/correo.png" alt="Correo">
+                <h3>Correo Electrónico</h3>
+                <p >Direccion de Correo</p>
+            </div>
+        </div>
+        
+        <div>
+            <img class="imgurl" src="img/Logofooter.png" alt="Imagen logo">
+        </div>
     </section>
-</footer>
+    
+    <section class="derechosfooter">
+                Todos los derechos reservados Front End
+    </section>
+        </footer>
 </body>
 </html>
