@@ -240,7 +240,10 @@ color: #FFFFFF;
     width: 80%;
 }
 .formulario{
-    max-width: 80%;
     justify-content: center;
+
+}
+.formulario input{
+    width: 70%;
 }
 }
