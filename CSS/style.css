@@ -53,6 +53,9 @@ header{
     left: 400px;
     
 }
+.img-text p{background-color: #FFFFFF;
+border-radius: 5px;
+padding: 5px;}
 
 h1{
     font-size: 2rem;
@@ -246,4 +249,6 @@ color: #FFFFFF;
 .formulario input{
     width: 70%;
 }
+.logocorreo p { font-size: 1.2rem;}
+.buttonsuscribite{margin: 5px;}
 }
